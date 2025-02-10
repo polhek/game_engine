@@ -1,0 +1,16 @@
+# Ignore build and dependency directories
+/build/
+/dist/
+/node_modules/
+
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore personal configuration files
+*.env
