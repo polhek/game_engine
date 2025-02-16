@@ -22,6 +22,6 @@
   },
   "include": ["src"],
   "references": [
-    { "path": "../game-client" }
+    { "path": "../../packages/game-client" }
   ]
 }

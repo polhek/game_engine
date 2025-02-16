@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:website": "npm run dev --workspace=packages/website"
+    "dev:website": "npm run dev --workspace=apps/website"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/polhek/game_engine.git"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "apps/*"
   ],
   "keywords": [],
   "author": "",
