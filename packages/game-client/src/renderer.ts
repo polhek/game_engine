@@ -2,8 +2,6 @@ export class Renderer {
   private ctx: CanvasRenderingContext2D;
 
   constructor(ctx: CanvasRenderingContext2D) {
-    console.log("Renderer created");
-    console.log("ctx", ctx);
     this.ctx = ctx;
     this.resizeCanvas();
   }
@@ -18,7 +16,6 @@ export class Renderer {
   }
 
   public render() {
-    // Paint some random text
-    console.log("Rendering...");
+    // Todo: Implement rendering
   }
 }

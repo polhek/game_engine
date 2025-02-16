@@ -10,10 +10,7 @@ export class GameClient {
   private animationFrameId: number | null = null;
 
   constructor(htmlCanvas: HTMLCanvasElement) {
-    console.log("GameClient created");
-    console.log("htmlCanvas", htmlCanvas);
     this.ctx = htmlCanvas.getContext("2d")!;
-
     this.renderer = new Renderer(this.ctx);
   }
 
